@@ -1,6 +1,6 @@
 {
   "name": "@dws/muster-message-transport",
-  "version": "6.6.3",
+  "version": "6.7.0",
   "description": "Muster Message Transport",
   "module": "./esm/index.js",
   "main": "./dist/index.js",
@@ -33,7 +33,7 @@
   "author": "DWS Technology",
   "license": "MIT",
   "dependencies": {
-    "@dws/muster": "^6.6.3",
+    "@dws/muster": "^6.7.0",
     "lodash": "^4.17.11"
   },
   "devDependencies": {

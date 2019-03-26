@@ -1,6 +1,6 @@
 {
   "name": "@dws/muster-worker",
-  "version": "6.6.3",
+  "version": "6.7.0",
   "description": "Muster middleware for running graphs inside a worker",
   "module": "./esm/index.js",
   "main": "./dist/index.js",
@@ -43,8 +43,8 @@
   "author": "DWS Technology",
   "license": "MIT",
   "dependencies": {
-    "@dws/muster": "^6.6.3",
-    "@dws/muster-message-transport": "^6.6.3",
+    "@dws/muster": "^6.7.0",
+    "@dws/muster-message-transport": "^6.7.0",
     "lodash": "^4.17.11"
   },
   "devDependencies": {

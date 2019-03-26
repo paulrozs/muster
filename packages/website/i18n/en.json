@@ -317,6 +317,9 @@
       },
       "version-6.6.3-muster-lazy-loading": {
         "title": "Lazy loading graphs"
+      },
+      "version-6.7.0-changelog": {
+        "title": "Latest Changes"
       }
     },
     "links": {

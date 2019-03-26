@@ -1,7 +1,7 @@
 {
   "name": "@dws/muster-base",
   "author": "DWS Technology",
-  "version": "6.6.3",
+  "version": "6.7.0",
   "description": "A universal data layer for components and services",
   "keywords": [
     "data",
