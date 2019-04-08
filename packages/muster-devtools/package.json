@@ -1,6 +1,6 @@
 {
   "name": "@dws/muster-devtools",
-  "version": "6.7.0",
+  "version": "6.7.1",
   "description": "Muster Devtools",
   "private": true,
   "main": "./dist/index.js",
@@ -11,17 +11,17 @@
     "prebuild": "yarn clean",
     "prestart": "yarn clean",
     "start": "webpack --watch",
-    "start:web": "webpack-serve --config webpack.config.web.js"
+    "start:web": "webpack-dev-server --config webpack.config.web.js"
   },
   "author": "DWS Technology",
   "license": "MIT",
   "dependencies": {
-    "@dws/muster": "^6.7.0",
-    "@dws/muster-devtools-client": "^6.7.0",
-    "@dws/muster-message-transport": "^6.7.0",
-    "@dws/muster-observable": "^6.7.0",
-    "@dws/muster-react": "^6.7.0",
-    "@dws/muster-version": "^6.7.0",
+    "@dws/muster": "^6.7.1",
+    "@dws/muster-devtools-client": "^6.7.1",
+    "@dws/muster-message-transport": "^6.7.1",
+    "@dws/muster-observable": "^6.7.1",
+    "@dws/muster-react": "^6.7.1",
+    "@dws/muster-version": "^6.7.1",
     "bootstrap": "^4.3.0",
     "classnames": "^2.2.5",
     "jquery": "^3.3.1",
@@ -59,8 +59,7 @@
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.1.8",
-    "webpack-extension-manifest-plugin": "^0.4.2",
-    "webpack-serve": "^2.0.3"
+    "webpack-extension-manifest-plugin": "^0.4.2"
   },
   "engines": {
     "node": ">=8.0.0"
