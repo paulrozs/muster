@@ -11,7 +11,7 @@
     "build": "webpack",
     "preanalyze": "webpack --profile --json > dist/stats.json",
     "analyze": "webpack-bundle-analyzer dist/stats.json",
-    "start": "webpack-serve --config ./webpack.config.dev.js"
+    "start": "webpack-dev-server --config ./webpack.config.dev.js"
   },
   "author": "DWS Technology",
   "license": "MIT",
@@ -60,8 +60,7 @@
     "webpack": "^4.29.0",
     "webpack-bundle-analyzer": "^3.0.2",
     "webpack-cli": "^3.2.3",
-    "webpack-dev-server": "^3.1.8",
-    "webpack-serve": "^2.0.3"
+    "webpack-dev-server": "^3.1.8"
   },
   "engines": {
     "node": ">=8.0.0"
