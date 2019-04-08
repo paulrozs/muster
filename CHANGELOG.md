@@ -7,6 +7,12 @@ title: Latest Changes
 
 ## Unreleased
 
+## 6.7.1 (2019-04-09)
+
+### 🐛 Bug Fixes
+
+- Removed webpack serve and replaced with webpack-dev-server
+
 ## 6.7.0 (2019-03-26)
 
 ### 🚀 New Features
