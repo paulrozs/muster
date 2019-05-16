@@ -7,6 +7,10 @@ title: Latest Changes
 
 ## Unreleased
 
+### 📝 Documentation
+
+- Removed greenkeeper reference.
+
 ## 6.7.1 (2019-04-09)
 
 ### 🐛 Bug Fixes
