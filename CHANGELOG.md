@@ -5,7 +5,7 @@ title: Latest Changes
 
 <!--lint disable -->
 
-## Unreleased
+## 6.7.2 (2019-05-28)
 
 ### 📝 Documentation
 
