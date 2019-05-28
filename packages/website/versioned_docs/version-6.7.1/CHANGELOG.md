@@ -1,16 +1,12 @@
 ---
-id: changelog
+id: version-6.7.1-changelog
 title: Latest Changes
+original_id: changelog
 ---
 
 <!--lint disable -->
 
-## 6.7.2 (2019-05-28)
-
-### 📝 Documentation
-
-- Removed greenkeeper reference.
-- Upgraded open-cli to 5.0.0
+## Unreleased
 
 ## 6.7.1 (2019-04-09)
 

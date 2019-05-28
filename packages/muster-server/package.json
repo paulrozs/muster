@@ -1,6 +1,6 @@
 {
   "name": "@dws/muster-server",
-  "version": "6.7.1",
+  "version": "6.7.2",
   "description": "Server middlewares for running Muster standalone",
   "module": "./esm/index.js",
   "main": "./dist/index.js",
@@ -45,13 +45,13 @@
   "author": "DWS Technology",
   "license": "MIT",
   "dependencies": {
-    "@dws/muster": "^6.7.1",
-    "@dws/muster-message-transport": "^6.7.1",
+    "@dws/muster": "^6.7.2",
+    "@dws/muster-message-transport": "^6.7.2",
     "isomorphic-ws": "^4.0.1"
   },
   "devDependencies": {
-    "@dws/muster-remote": "^6.7.1",
-    "@dws/muster-test-utils": "^6.7.1",
+    "@dws/muster-remote": "^6.7.2",
+    "@dws/muster-test-utils": "^6.7.2",
     "@types/body-parser": "^1.16.5",
     "@types/express": "^4.16.1",
     "@types/lodash-es": "^4.14.74",
