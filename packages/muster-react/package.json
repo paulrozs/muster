@@ -73,7 +73,7 @@
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^16.5.1",
     "react-test-renderer": "^16.5.1",
-    "ts-loader": "^5.2.2",
+    "ts-loader": "^6.0.0",
     "typescript": "3.3.3",
     "webpack": "^4.29.0"
   },
