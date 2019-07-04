@@ -28,13 +28,16 @@
     "build": "yarn build:dist",
     "build:full": "yarn build:dist && yarn build:esm",
     "build:dist": "tsc",
-    "build:esm": "tsc -p tsconfig.esm.json"
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "DWS Technology",
   "license": "MIT",
   "dependencies": {
     "@dws/muster": "^6.7.2",
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.11",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@types/lodash-es": "^4.14.74",
@@ -42,5 +45,6 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "snyk": true
 }
