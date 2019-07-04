@@ -28,18 +28,22 @@
     "build": "yarn build:dist",
     "build:full": "yarn build:dist && yarn build:esm",
     "build:dist": "tsc",
-    "build:esm": "tsc -p tsconfig.esm.json"
+    "build:esm": "tsc -p tsconfig.esm.json",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "DWS Technology",
   "license": "MIT",
   "dependencies": {
     "@dws/muster": "^6.7.2",
-    "@dws/muster-version": "^6.7.2"
+    "@dws/muster-version": "^6.7.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "typescript": "3.3.3"
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "snyk": true
 }
