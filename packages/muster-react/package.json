@@ -42,7 +42,9 @@
     "build:esm": "tsc -p tsconfig.esm.json",
     "build:amd": "tsc --outFile _bundles/muster.min.js --module amd --sourceMap true",
     "build:umd": "webpack",
-    "postbuild:umd": "del-cli ./_bundles/dist"
+    "postbuild:umd": "del-cli ./_bundles/dist",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "DWS Technology",
   "license": "MIT",
@@ -52,7 +54,8 @@
     "@dws/muster-test-utils": "^6.7.2",
     "hoist-non-react-statics": "^3.3.0",
     "lodash": "^4.17.11",
-    "react-lifecycles-compat": "^3.0.2"
+    "react-lifecycles-compat": "^3.0.2",
+    "snyk": "^1.189.0"
   },
   "peerDependencies": {
     "prop-types": "^15.7.1",
@@ -79,5 +82,6 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "snyk": true
 }
