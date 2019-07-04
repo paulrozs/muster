@@ -11,7 +11,9 @@
     "prebuild": "yarn clean",
     "prestart": "yarn clean",
     "start": "webpack --watch",
-    "start:web": "webpack-dev-server --config webpack.config.web.js"
+    "start:web": "webpack-dev-server --config webpack.config.web.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "DWS Technology",
   "license": "MIT",
@@ -28,7 +30,8 @@
     "lodash": "^4.17.11",
     "prop-types": "^15.7.1",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "snyk": "^1.189.0"
   },
   "peerDependencies": {
     "prop-types": "^15.7.1",
@@ -63,5 +66,6 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "snyk": true
 }
