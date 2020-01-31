@@ -33,7 +33,7 @@
   "author": "DWS Technology",
   "license": "MIT",
   "devDependencies": {
-    "del-cli": "^1.1.0",
+    "del-cli": "^2.0.0",
     "typescript": "3.3.3"
   },
   "engines": {
