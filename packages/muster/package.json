@@ -68,7 +68,7 @@
     "@types/lodash-es": "^4.14.74",
     "@types/semver": "^5.5.0",
     "@types/string-hash": "^1.1.1",
-    "del-cli": "^1.1.0",
+    "del-cli": "^2.0.0",
     "ts-loader": "^5.2.2",
     "typescript": "3.3.3",
     "webpack": "^4.29.0"
