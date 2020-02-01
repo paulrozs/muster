@@ -48,7 +48,7 @@
     "babel-loader": "^8.0.4",
     "copy-webpack-plugin": "^4.5.1",
     "css-loader": "^2.0.0",
-    "del-cli": "^1.1.0",
+    "del-cli": "^2.0.0",
     "react-addons-test-utils": "^15.6.2",
     "react-hot-loader": "^4.6.5",
     "react-test-renderer": "^16.5.1",
