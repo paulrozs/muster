@@ -11,7 +11,9 @@
     "build": "webpack",
     "preanalyze": "webpack --profile --json > dist/stats.json",
     "analyze": "webpack-bundle-analyzer dist/stats.json",
-    "start": "webpack-dev-server --config ./webpack.config.dev.js"
+    "start": "webpack-dev-server --config ./webpack.config.dev.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "DWS Technology",
   "license": "MIT",
@@ -32,7 +34,8 @@
     "prop-types": "^15.7.1",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
-    "react-reflex": "^3.0.9"
+    "react-reflex": "^3.0.9",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/babel-core": "^6.25.0",
@@ -64,5 +67,6 @@
   },
   "engines": {
     "node": ">=8.0.0"
-  }
+  },
+  "snyk": true
 }
